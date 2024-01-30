@@ -1,0 +1,85 @@
+/*  */
+.searchBar {
+  padding: 1rem;
+  flex: 0 0 25%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 8px 8px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid #808080b4;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.search_box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.searchBar .search_category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.searchBar .search_category .members {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item_list {
+  display: grid;
+  gap: 0.5rem;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item_list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: 0.3s ease all;
+}
+
+.item:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  background-color: #00000022;
+}
+
+/* item 선택시 색상 변경 */
+.check {
+  background-color: #37f93700;
+}
+
+.submit_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: 0.3s ease all;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  background-color: #00000022;
+}

@@ -1,0 +1,41 @@
+/* header */
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 0 0 90px;
+  width: 100%;
+
+  border-bottom: 2px solid rgba(128, 128, 128, 0.214);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+}
+
+.weather_box {
+  display: flex;
+  justify-content: center;
+
+  flex: 0 0 30%;
+  height: 100%;
+}
+
+.today_weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo>h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.empty {
+  flex: 0 0 20%;
+}

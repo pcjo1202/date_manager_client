@@ -1,0 +1,9 @@
+/*  */
+.map_box {
+  flex: 1;
+  display: flex;
+}
+
+.map {
+  width: 100%;
+}
